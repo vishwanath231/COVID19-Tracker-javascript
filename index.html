@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COVID-19 Tracker</title>
+        <link rel="shortcut icon" href="assets/icon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="flex__box">
+            <div class="info__container">
+                <div class="header flex">
+                    <h2>COVID-19 Tracker</h2>
+                    <p>World Wide</p>
+                </div>
+                <div class="info__box_1 flex">
+                    <div class="case__box">
+                        <div class="info__title">Coronavirus Cases</div>
+                        <div class="today__case"></div>
+                        <div class="total__case"></div>
+                    </div>
+                    <div class="recover__box">
+                        <div class="info__title">Recovered</div>
+                        <div class="today__recover"></div>
+                        <div class="total__recover"></div>
+                    </div>
+                    <div class="death__box">
+                        <div class="info__title">Deaths</div>
+                        <div class="today__death"></div>
+                        <div class="total__death"></div>
+                    </div>
+                </div>
+                <div class="info__box_2">
+                    <form id="form">
+                        <select id="search"></select>
+                    </form>
+                    <div id="output"></div>
+                </div>   
+            </div>
+            <div class="table__container">
+                <div class="table__header">Live cases by country</div>
+                <div class="scroll__box">
+                    <div class="table__info"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Stay Home, Stay Safe</p>
+        </div>
+    </div>
+
+
+    <script src="assets/js/infoBox.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/table.js"></script>
+
+</body>
+</html>
